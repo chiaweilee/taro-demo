@@ -1,0 +1,21 @@
+{
+  "name": "weapp",
+  "version": "1.0.0",
+  "private": true,
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "Less",
+    "framework": "Vue3"
+  },
+  "scripts": {
+    "build": "taro build --type weapp",
+    "dev": "npm run build -- --watch",
+    "test": "jest"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ]
+}
